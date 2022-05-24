@@ -49,6 +49,10 @@ p.lead {
     font-size: 1.5rem
 }
 
+.subheading a {
+  text-transform: none;
+}
+
 .social-icons a {
     display: inline-block;
     height: 3.5rem;
@@ -191,7 +195,7 @@ section.resume-section .resume-content {
 
 a {
     color: #0AA1DD;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:active, a:focus, a:hover {
