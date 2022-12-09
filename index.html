@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Ali's Personal Webpage</title>
+
+  <!-- Bootstrap core CSS -->
+  <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet"> -->
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/70f25e8f1c.js" crossorigin="anonymous"></script>
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Ali Sahraee</span>
+      <span class="d-none d-lg-block">
+        <script pagespeed_no_defer="">
+          //<![CDATA[
+          (function() {
+            var g = this,
+              h = function(b, d) {
+                var a = b.split("."),
+                  c = g;
+                a[0] in c || !c.execScript || c.execScript("var " + a[0]);
+                for (var e; a.length && (e = a.shift());) a.length || void 0 === d ? c[e] ? c = c[e] : c = c[e] = {} : c[e] = d
+              };
+            var l = function(b) {
+              var d = b.length;
+              if (0 < d) {
+                for (var a = Array(d), c = 0; c < d; c++) a[c] = b[c];
+                return a
+              }
+              return []
+            };
+            var m = function(b) {
+              var d = window;
+              if (d.addEventListener) d.addEventListener("load", b, !1);
+              else if (d.attachEvent) d.attachEvent("onload", b);
+              else {
+                var a = d.onload;
+                d.onload = function() {
+                  b.call(this);
+                  a && a.call(this)
+                }
+              }
+            };
+            var n, p = function(b, d, a, c, e) {
+                this.f = b;
+                this.h = d;
+                this.i = a;
+                this.c = e;
+                this.e = {
+                  height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight,
+                  width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+                };
+                this.g = c;
+                this.b = {};
+                this.a = [];
+                this.d = {}
+              },
+              q = function(b, d) {
+                var a, c, e = d.getAttribute("pagespeed_url_hash");
+                if (a = e && !(e in b.d))
+                  if (0 >= d.offsetWidth && 0 >= d.offsetHeight) a = !1;
+                  else {
+                    c = d.getBoundingClientRect();
+                    var f = document.body;
+                    a = c.top + ("pageYOffset" in window ? window.pageYOffset : (document.documentElement || f.parentNode || f).scrollTop);
+                    c = c.left + ("pageXOffset" in window ? window.pageXOffset : (document.documentElement || f.parentNode || f).scrollLeft);
+                    f = a.toString() + "," + c;
+                    b.b.hasOwnProperty(f) ? a = !1 : (b.b[f] = !0, a = a <= b.e.height && c <= b.e.width)
+                  } a && (b.a.push(e), b.d[e] = !0)
+              };
+            p.prototype.checkImageForCriticality = function(b) {
+              b.getBoundingClientRect && q(this, b)
+            };
+            h("pagespeed.CriticalImages.checkImageForCriticality", function(b) {
+              n.checkImageForCriticality(b)
+            });
+            h("pagespeed.CriticalImages.checkCriticalImages", function() {
+              r(n)
+            });
+            var r = function(b) {
+                b.b = {};
+                for (var d = ["IMG", "INPUT"], a = [], c = 0; c < d.length; ++c) a = a.concat(l(document.getElementsByTagName(d[c])));
+                if (0 != a.length && a[0].getBoundingClientRect) {
+                  for (c = 0; d = a[c]; ++c) q(b, d);
+                  a = "oh=" + b.i;
+                  b.c && (a += "&n=" + b.c);
+                  if (d = 0 != b.a.length)
+                    for (a += "&ci=" + encodeURIComponent(b.a[0]), c = 1; c < b.a.length; ++c) {
+                      var e = "," + encodeURIComponent(b.a[c]);
+                      131072 >= a.length + e.length && (a += e)
+                    }
+                  b.g && (e = "&rd=" + encodeURIComponent(JSON.stringify(s())), 131072 >= a.length + e.length && (a += e), d = !0);
+                  t = a;
+                  if (d) {
+                    c = b.f;
+                    b = b.h;
+                    var f;
+                    if (window.XMLHttpRequest) f = new XMLHttpRequest;
+                    else if (window.ActiveXObject) try {
+                      f = new ActiveXObject("Msxml2.XMLHTTP")
+                    } catch (k) {
+                      try {
+                        f = new ActiveXObject("Microsoft.XMLHTTP")
+                      } catch (u) {}
+                    }
+                    f && (f.open("POST", c + (-1 == c.indexOf("?") ? "?" : "&") + "url=" + encodeURIComponent(b)), f.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"), f.send(a))
+                  }
+                }
+              },
+              s = function() {
+                var b = {},
+                  d = document.getElementsByTagName("IMG");
+                if (0 == d.length) return {};
+                var a = d[0];
+                if (!("naturalWidth" in a && "naturalHeight" in a)) return {};
+                for (var c = 0; a = d[c]; ++c) {
+                  var e = a.getAttribute("pagespeed_url_hash");
+                  e && (!(e in b) && 0 < a.width && 0 < a.height && 0 < a.naturalWidth && 0 < a.naturalHeight || e in b && a.width >= b[e].k && a.height >= b[e].j) && (b[e] = {
+                    rw: a.width,
+                    rh: a.height,
+                    ow: a.naturalWidth,
+                    oh: a.naturalHeight
+                  })
+                }
+                return b
+              },
+              t = "";
+            h("pagespeed.CriticalImages.getBeaconData", function() {
+              return t
+            });
+            h("pagespeed.CriticalImages.Run", function(b, d, a, c, e, f) {
+              var k = new p(b, d, a, e, f);
+              n = k;
+              c && m(function() {
+                window.setTimeout(function() {
+                  r(k)
+                }, 0)
+              })
+            });
+          })();
+          pagespeed.CriticalImages.Run('/mod_pagespeed_beacon', 'https://sahraeeali.github.io/', 'l8PuqRhht8', true, false, 'HvY0GKpzYBA');
+          //]]>
+        </script><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/Ali.png" alt="" pagespeed_url_hash="3015044664" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#news">Latest NEWS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#Publication">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#teaching">Teaching</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Honors</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Ali
+          <span class="text-primary">Sahraee</span>
+        </h1>
+        <div class="subheading mb-5">Room 329:224, B-huset, CAMPUS VALLA, Linköping University, Sweden.
+          (46-13) 28 4616 <br>
+          <a href="mailto:ali.sahraee@liu.se">ali.sahraee@liu.se</a> -
+          <a href="mailto:ali.sahraee97@gmail.com">ali.sahraee97@gmail.com</a>
+        </div>
+        <p class="lead"><strong>Hi.</strong></p>
+        <p class="lead mb-5">I am Ali Sahraee. I am a second-year <em>Ph.D.</em> student in Computer Science at
+          Linköping University. I received a <em>B.Sc.</em> degree in Computer Engineering from Sharif University of Technology, Iran,
+          in 2020. I am broadly interested in providing system-level solutions for dependability and security
+          issues related to embedded systems. Recently, I have been working on providing a sound and efficient
+          cache side-channel detection mechanism and protecting the system with proper defense mechanisms against
+          such security threats.
+        </p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/alisahraee1997/">
+          <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://www.researchgate.net/profile/Ali-Sahraee-2">
+            <i class="fa-brands fa-r-project"></i>
+          </a>
+          <a href="https://scholar.google.com/citations?user=C-2MZkkAAAAJ&hl=en&oi=ao">
+            <i class="fa-brands fa-goodreads-g"></i>
+          </a>
+          <a href="https://github.com/sahraeeali/">
+          <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://liu.se/en/employee/alisa39">
+            <i class="fa-solid fa-file"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="news">
+      <div class="w-100">
+        <!--- Include the above in your HEAD tag ---------->
+        <h2 class="mb-5">Latest News</h2>
+        <div class="container mt-5 mb-5 News-cont">
+          <div class="row">
+            <div class="col-md-8 offset-md-3 col-item">
+              <ul class="timeline">
+                <li>
+                  <p class="timeline float-right">PhD Admission, April 2021</p>
+                  <p>I continue my studies at Linköping University as a PhD student in Computer Science Graduate School (CUGS).</p>
+                </li>
+                <li>
+                  <p class="timeline float-right">Research Assistant, March 2020</p>
+                  <p>I will join ESLAB at Linköping University as a researcher.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Linköping University, Linköping, Sweden</h3>
+            <div class="subheading mb-3">Ph.D. in Computer Science</div>
+            <div>
+              <ul>
+                <li>
+                  Member of Embedded Systems Laboratory (<a href="https://www.ida.liu.se/labs/eslab/">ESLab</a>)
+                </li>
+                <li>
+                  Lab managers: <a href="https://www.ida.liu.se/~petel71/">Prof. Petru Eles</a>, <a href="https://www.ida.liu.se/~zebpe83/">Prof. Zebo Peng</a>.
+                </li>
+                <li>Project: Symbolic Validation Against Micro-Architectural Side-Channel Timing Attacks.
+                </li>
+              </ul>
+            </div>
+            <!--<p>GPA: 3.23</p>-->
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">April 2021 - Now</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Linköping University, Linköping, Sweden</h3>
+            <div class="subheading mb-3">Research Assistant</div>
+            <div>
+              <ul>
+                <li>
+                  Member of Embedded Systems Laboratory (<a href="https://www.ida.liu.se/labs/eslab/">ESLab</a>)
+                </li>
+                <li>Project: Static Analysis of Programs Against Store-Bypass Side-channel Attacks.
+                </li>
+              </ul>
+            </div>
+            <!--<p>GPA: 3.23</p>-->
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2020 - March 2021</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Sharif University of Technology, Tehran, Iran</h3>
+            <div class="subheading mb-3">B.Sc. in Computer Engineering</div>
+            <div>
+              <ul>
+                <li>Member of Embedded Systems Research Laboratory (<a href="http://esrlab.ce.sharif.edu/">ESRLab</a>)
+                </li>
+                <li>
+                  Supervisors: <a href="http://sharif.edu/~ejlali/">Dr. Alireza Ejlali</a>, and <a href="http://sharif.edu/~ansari/">Dr. Mohsen Ansari</a>
+                </li>
+                <li>Thesis: A Comparative Study of Joint Power and Reliability Management Techniques in Multicore Embedded Systems.
+                </li>
+              </ul>
+            </div>
+            <!--<p>GPA: 3.23</p>-->
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2015 - July 2020</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="Publication">
+      <div class="w-100">
+        <h2 class="mb-5">Publications</h2>
+        <ul>
+          <li><strong style="text-decoration: underline ">Sahraee, Ali</strong>. "Specognitor: Identifying Spectre Vulnerabilities via Prediction-Aware Symbolic Execution." arXiv preprint arXiv:2211.13526 (2022). [<a href="https://arxiv.org/abs/2211.13526">Link</a>]</li>
+          <li>Yari-Karin, Sina, <strong style="text-decoration: underline ">Ali Sahraee</strong>, Javad Saber-Latibari, Mohsen Ansari, Nezam Rohbani, and Alireza Ejlali. "A comparative study of joint power and reliability management techniques in multicore embedded systems." In 2020 CSI/CPSSI International Symposium on Real-Time and Embedded Systems and Technologies (RTEST), pp. 1-8. IEEE, 2020.</li>
+          <!-- <li>S. Yari-Karin, <strong style="text-decoration: underline ">A. Sahraee</strong>, J. Saber-Latibari, M. Ansari, N. Rohbani and A. Ejlali, "A Comparative Study of Joint Power and Reliability Management Techniques in Multicore Embedded Systems,"
+            2020 CSI/CPSSI International Symposium on Real-Time and Embedded Systems and Technologies (RTEST), 2020.</li> -->
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages</div>
+        <ul>
+          <li> <strong>Software:</strong>
+            <ul>
+              <li>Proficient in C/C++, Python, AVR, CUDA, OpenMP, R, Bash.</li>
+              <li>Familiar with Java, Android, LLVM-IR, X86 and IBM360 Assemblies, OCaml.</li>
+            </ul>
+          </li>
+          <li><strong>Hardware:</strong> SystemC, Verilog.</li>
+        </ul>
+        <div class="subheading mb-3">Tools</div>
+        <ul>
+          <li><strong>Hardware:</strong> GEM5, ModelSim, HSpice, MPARM, CodeVisionAVR, Proteos, Altera Quartus II, Xilinx Design, PSpice.</li>
+          <li><strong>Programming & Compilers:</strong> Qt, MATLAB & SIMULINK, mctoll.</li>
+          <li><strong>Symbolic & Static Analysis:</strong> KLEE, BAP, UPPAAL, Spin, NuSMV, Dafny.</li>
+          <li><strong>Other:</strong> Git, Latex.</li>
+        </ul>
+        <div class="subheading mb-3">Web Programming Languages</div>
+        <ul>
+          <li>HTML, CSS, JS.</li>
+        </ul>
+        <div class="subheading mb-3">Boards</div>
+        <ul>
+          <li>Arduino uno/nano, FPGA DE2 altera, Beaglebone Black and Raspberry Pi 3 & 4.</li>
+        </ul>
+        <!-- <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+        </ul> -->
+      </div>
+    </section>
+
+    <!-- <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+
+         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">...</h3>
+            <div class="subheading mb-3">...</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">...</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section> -->
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="teaching">
+      <div class="w-100">
+        <h2 class="mb-5">Teaching Assistant</h2>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="teaching-content">
+            <h3 class="mb-0">Linköping University</h3>
+            <ul class="teaching-items">
+              <li>
+                <a href="https://www.ida.liu.se/~TDTS07/">System Design and Methodology (TDTS07)</a>
+                Examiner: <a href="https://www.ida.liu.se/~petel71/">Prof. Petru Eles</a><br>
+                <span>Spring 2022</span>
+              </li>
+              <li>
+                <a href="https://www.ida.liu.se/~TDDI08/">Embedded Systems Design (TDDI08)</a>
+                Examiner: <a href="https://www.ida.liu.se/~petel71/">Prof. Petru Eles</a><br>
+                <span>Spring 2022</span>
+              </li>
+              <li>
+                <a href="https://www.ida.liu.se/~TDTS10/">Computer Architecture (TDTS10)</a>
+                Examiner: <a href="https://www.ida.liu.se/~zebpe83/">Prof. Zebo Peng</a><br>
+                <span>Fall 2021, Fall 2020</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="teaching-content">
+            <h3 class="mb-0">Sharif University of Technology</h3>
+            <ul class="teaching-items">
+              <li>
+                <span class="text-primary">Low-Power Design (Grad. course).</span>
+                Examiner: <a href="http://sharif.edu/~ejlali/">Dr. Alireza Ejlali</a><br>
+                <span>Spring 2020</span>
+              </li>
+              <li>
+                <span class="text-primary">Digital Systems Design.</span>
+                Examiner: <a href="http://sharif.edu/~ejlali/">Dr. Alireza Ejlali</a><br>
+                <span>Spring 2020, Spring 2019, Fall 2018</span>
+              </li>
+              <li>
+                <span class="text-primary">Embedded Systems.</span>
+                Examiner: <a href="http://webpages.iust.ac.ir/monazzah/">Dr. Amir Mahdi Hosseini Monazzah</a><br>
+                <span>Spring 2020</span>
+              </li>
+              <li>
+                <span class="text-primary">Fault Tolerant Systems (Grad. course).</span>
+                Examiner: <a href="http://sharif.edu/~ejlali/">Dr. Alireza Ejlali</a><br>
+                <span>Fall 2019</span>
+              </li>
+              <li>
+                <span class="text-primary">Operating Systems.</span>
+                Examiner: <a href="https://ce.aut.ac.ir/~farbeh//">Dr. Hamed Farbeh</a><br>
+                <span>Spring 2019</span>
+              </li>
+              <li>
+                <span class="text-primary">Computer Architecture.</span>
+                Examiner: <a href="https://ce.aut.ac.ir/~farbeh//">Dr. Hamed Farbeh</a><br>
+                <span>Fall 2018</span>
+              </li>
+              <li>
+                <a href="http://ce.sharif.edu/courses/96-97/2/ce153-6/index.php/section/syllabus/file/syllabus">Fundamentals of Computer Programming (Python)</a>
+                Examiner: <span class="text-primary">Mahdi Eshaghi</span><br>
+                <span>Spring 2018</span>
+              </li>
+              <li>
+                <a href="http://ce.sharif.edu/courses/96-97/1/ce153-8/index.php/section/syllabus/file/syllabus">Fundamentals of Computer Programming (C/C++)</a>
+                Examiner: <span class="text-primary">Vahid Khodabakhshi</span><br>
+                <span>Fall 2017</span>
+              </li>
+              <li>
+                <a href="http://ce.sharif.edu/courses/95-96/1/ce153-8/index.php/section/syllabus/file/syllabus">Fundamentals of Computer Programming (C/C++)</a>
+                Examiner: <span class="text-primary">Sahar Yousefi</span><br>
+                <span>Fall 2016</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Honors</h2>
+        <ul class=" mb-0">
+          <li>
+            I am honored to receive a direct-Ph.D. admission in <a href="https://www.ida.liu.se/ext/cugs/">computer
+            science graduate school (CUGS)</a> at Linköping University.
+          </li>
+          <li>
+            Ranked 91st among more than 300,000 participants in the nation-wide university entrance exam.
+            Admission to Sharif University of Technology B.Sc. program.
+          </li>
+          <li> Admitted to NODET (National Organization for Exceptional Talents) by passing an exam with
+            below 2% acceptance rate.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+  <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <!-- Plugin JavaScript -->
+  <!-- <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
+
+  <!-- Custom scripts for this template -->
+  <!-- <script src="js/index.js"></script> -->
+
+</body>
+
+</html>
